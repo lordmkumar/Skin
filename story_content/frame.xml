@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns11111000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4893B8">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns10111000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4893B8">
   <layouts>
-    <layout name="npnxnanbsnfns11111000101" font="Lato" controllayout="npnxnanbsnfns11111000101" colorscheme="npnxnanbnsnfns11111000101" string_table="npnxnanbnsnfns11111000101" />
-    <layout name="pxabnsnfns11111000101" font="Lato" controllayout="pxabnsnfns11111000101" colorscheme="npnxnanbnsnfns11111000101" string_table="npnxnanbnsnfns11111000101" />
-    <layout name="npxnabnsnfns11111000101" font="Lato" controllayout="npxnabnsnfns11111000101" colorscheme="npnxnanbnsnfns11111000101" string_table="npnxnanbnsnfns11111000101" />
-    <layout name="npnxnanbnsnfns11111000101" font="Lato" controllayout="npnxnanbnsnfns11111000101" colorscheme="npnxnanbnsnfns11111000101" string_table="npnxnanbnsnfns11111000101" />
-    <layout name="pxabnsnfns11111000100" font="Lato" controllayout="pxabnsnfns11111000100" colorscheme="npnxnanbnsnfns11111000101" string_table="npnxnanbnsnfns11111000101" />
+    <layout name="npnxnanbsnfns10111000101" font="Lato" controllayout="npnxnanbsnfns10111000101" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
+    <layout name="pxabnsnfns10111000101" font="Lato" controllayout="pxabnsnfns10111000101" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
+    <layout name="npxnabnsnfns10111000101" font="Lato" controllayout="npxnabnsnfns10111000101" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
+    <layout name="npnxnanbnsnfns10111000101" font="Lato" controllayout="npnxnanbnsnfns10111000101" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
+    <layout name="pxabnsnfns10111000100" font="Lato" controllayout="pxabnsnfns10111000100" colorscheme="npnxnanbnsnfns10111000101" string_table="npnxnanbnsnfns10111000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -16,11 +16,8 @@
               <option name="title_text" value="Common Skin Conditions - Part 1" />
             </options>
           </option>
-          <option name="logo_enabled" value="true">
-            <options>
-              <option name="logo_url" />
-              <option name="html5_logo_url" value="mobile/6WAVsUqNjgL.png" />
-            </options>
+          <option name="logo_enabled" value="false">
+            <options />
           </option>
           <option name="sidebar_enabled" value="true">
             <options>
@@ -46,7 +43,7 @@
               <option name="height" value="135" />
             </options>
           </option>
-          <option name="logoAltText" value="SINA Logo.png" />
+          <option name="logoAltText" />
         </options>
       </optiongroup>
       <optiongroup name="menuoptions">
@@ -64,8 +61,8 @@
           <option name="volume" value="true" />
           <option name="seekbar" value="true">
             <options>
-              <option name="readonly" value="false" />
-              <option name="readonlyOnce" value="false" />
+              <option name="readonly" value="true" />
+              <option name="readonlyOnce" value="true" />
             </options>
           </option>
           <option name="pauseplay" value="true" />
@@ -76,8 +73,8 @@
               <option name="font" value="Lato" />
             </options>
           </option>
-          <option name="settings" value="false" />
-          <option name="fullScreenToggle" value="false" />
+          <option name="settings" value="true" />
+          <option name="fullScreenToggle" value="true" />
           <option name="playbackSpeedControl" value="true" />
         </options>
       </optiongroup>
@@ -96,17 +93,17 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns11111000101">
+    <control_layout name="npnxnanbsnfns10111000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="true" />
+      <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="playbackSpeedControl" enabled="true" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
@@ -121,17 +118,17 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns11111000101">
+    <control_layout name="pxabnsnfns10111000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="true" />
+      <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="playbackSpeedControl" enabled="true" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -146,17 +143,17 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns11111000101">
+    <control_layout name="npxnabnsnfns10111000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="true" />
+      <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="playbackSpeedControl" enabled="true" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -171,17 +168,17 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns11111000101">
+    <control_layout name="npnxnanbnsnfns10111000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="true" />
+      <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="playbackSpeedControl" enabled="true" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -196,17 +193,17 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns11111000100">
+    <control_layout name="pxabnsnfns10111000100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="true" />
+      <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="playbackSpeedControl" enabled="true" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -223,7 +220,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxnanbnsnfns11111000101">
+    <colorscheme name="npnxnanbnsnfns10111000101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1401,7 +1398,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxnanbnsnfns11111000101">
+    <string_table name="npnxnanbnsnfns10111000101">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1578,34 +1575,47 @@
         <slidelink slideid="_player.5WxRwexv5Km" displaytext="Skin Conditions" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5WxRwexv5Km.5my1l8q1Aup" displaytext="Objectives" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.5wgFjzYE7Dn" displaytext="Description of a Skin lesion" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6bRvVNvcx6w" displaytext="Description of a Skin lesion" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.68hrhmg4pzb" displaytext="Case Scenario 1" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6DkmU5mar90" displaytext="Tinea Versicolor" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6UzxTQ2sLHU" displaytext="Case Scenario 2" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.5fJc8lrNMRF" displaytext="Tinea Corporis" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.5sE4fIhSzb4" displaytext="Case Scenario 3" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.5xlwTqxPJnu" displaytext="Athlete’s Foot: Tinea Pedis " expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.5tguyHwzyx8" displaytext="Case Scenario 4" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6IksGnsb8LC" displaytext="Tinea Unguium – Fungal Infection of the nail" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6YNelZt2pPg" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6FBxCPEMAch" displaytext="Kerion" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.5qknffl350C" displaytext="More on Tinea" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.5xqzML4Z7Td" displaytext="Candida Intertrigo" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.5XWvztFgvDo" displaytext="Candida Intertrigo - 2" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.5jaiouUxTXd" displaytext="This is the end of Common Fungal Skin Conditions component" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.6WPNo4z467c" displaytext="Morphology of Primary Skin Lesions" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6e5sPOLqIDh" displaytext="Morphology of Primary Skin Lesions" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6hT8MV0IXn4" displaytext="Morphology of Primary Skin Lesions" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6lI8TABWNa6" displaytext="Morphology of Primary Skin Lesions" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.5kx7AaLI7BD" displaytext="Morphology of Primary Skin Lesions" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6WU5MBWsJO3" displaytext="Pharmacological Management – Tenia Capitis" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6C471hh1E0G" displaytext="Non Pharmacological Management – Tinea Capitis" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6ngIFxnSkuZ" displaytext="Pharmacological Management – Tenia Pedis" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6dNUoBhzE3L" displaytext="Non Pharmacological Management – Tenia Pedis" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6L4CqruqH4T" displaytext="Diaper Dermatitis (Diaper Rash, Napkin Dermatitis &amp;amp; Nappy Rash)" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6TgzcdElfRC" displaytext="Management of Diaper Dermatitis" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.6WFPwABGjOk" displaytext="Some more examples of Candida Interigo" expand="false" type="slide" />
+            <slidelink slideid="_player.5WxRwexv5Km.5wgFjzYE7Dn" displaytext="Description of a Skin lesion" expand="false" type="slide" />
+            <slidelink slideid="_player.5WxRwexv5Km.68hrhmg4pzb" displaytext="Case Scenario 1" expand="true" type="slide">
+              <links>
+                <slidelink slideid="_player.5WxRwexv5Km.6DkmU5mar90" displaytext="Tinea Versicolor" expand="false" type="slide" />
+              </links>
+            </slidelink>
+            <slidelink slideid="_player.5WxRwexv5Km.6UzxTQ2sLHU" displaytext="Case Scenario 2" expand="true" type="slide">
+              <links>
+                <slidelink slideid="_player.5WxRwexv5Km.5fJc8lrNMRF" displaytext="Tinea Corporis" expand="false" type="slide" />
+              </links>
+            </slidelink>
+            <slidelink slideid="_player.5WxRwexv5Km.5sE4fIhSzb4" displaytext="Case Scenario 3" expand="true" type="slide">
+              <links>
+                <slidelink slideid="_player.5WxRwexv5Km.5xlwTqxPJnu" displaytext="Athlete’s Foot: Tinea Pedis " expand="false" type="slide" />
+                <slidelink slideid="_player.5WxRwexv5Km.6dNUoBhzE3L" displaytext="Non Pharmacological Management – Tenia Pedis" expand="false" type="slide" />
+                <slidelink slideid="_player.5WxRwexv5Km.6ngIFxnSkuZ" displaytext="Pharmacological Management – Tenia Pedis" expand="false" type="slide" />
+              </links>
+            </slidelink>
+            <slidelink slideid="_player.5WxRwexv5Km.5tguyHwzyx8" displaytext="Case Scenario 4" expand="true" type="slide">
+              <links>
+                <slidelink slideid="_player.5WxRwexv5Km.6IksGnsb8LC" displaytext="Tinea Unguium – Fungal Infection of the nail" expand="false" type="slide" />
+                <slidelink slideid="_player.5WxRwexv5Km.6YNelZt2pPg" displaytext="Tinea Capitis" expand="false" type="slide" />
+                <slidelink slideid="_player.5WxRwexv5Km.6C471hh1E0G" displaytext="Non Pharmacological Management – Tinea Capitis" expand="false" type="slide" />
+                <slidelink slideid="_player.5WxRwexv5Km.6WU5MBWsJO3" displaytext="Pharmacological Management – Tenia Capitis" expand="false" type="slide" />
+                <slidelink slideid="_player.5WxRwexv5Km.6FBxCPEMAch" displaytext="Kerion" expand="false" type="slide" />
+                <slidelink slideid="_player.5WxRwexv5Km.5qknffl350C" displaytext="More on Tinea" expand="false" type="slide" />
+              </links>
+            </slidelink>
+            <slidelink slideid="_player.5WxRwexv5Km.5xqzML4Z7Td" displaytext="Candida Intertrigo" expand="true" type="slide">
+              <links>
+                <slidelink slideid="_player.5WxRwexv5Km.5XWvztFgvDo" displaytext="Candida Intertrigo - 2" expand="false" type="slide" />
+                <slidelink slideid="_player.5WxRwexv5Km.6WFPwABGjOk" displaytext="Some more examples of Candida Interigo" expand="false" type="slide" />
+              </links>
+            </slidelink>
+            <slidelink slideid="_player.5WxRwexv5Km.6L4CqruqH4T" displaytext="Diaper Dermatitis (Diaper Rash, Napkin Dermatitis &amp;amp; Nappy Rash)" expand="true" type="slide">
+              <links>
+                <slidelink slideid="_player.5WxRwexv5Km.6TgzcdElfRC" displaytext="Management of Diaper Dermatitis" expand="false" type="slide" />
+              </links>
+            </slidelink>
+            <slidelink slideid="_player.5WxRwexv5Km.5jaiouUxTXd" displaytext="References" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
